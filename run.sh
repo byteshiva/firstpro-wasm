@@ -1,0 +1,1 @@
+docker run --rm -v $(pwd):/src -u $(id -u):$(id -g) emscripten/emsdk emcc  lib/demo.c -s WASM=1 -o public/demo.js
