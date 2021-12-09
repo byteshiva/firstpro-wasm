@@ -1912,6 +1912,18 @@ var asm = createWasm();
 var ___wasm_call_ctors = Module["___wasm_call_ctors"] = createExportWrapper("__wasm_call_ctors");
 
 /** @type {function(...*):?} */
+var _getNumber = Module["_getNumber"] = createExportWrapper("getNumber");
+
+/** @type {function(...*):?} */
+var _getDoubleNumber = Module["_getDoubleNumber"] = createExportWrapper("getDoubleNumber");
+
+/** @type {function(...*):?} */
+var _greet = Module["_greet"] = createExportWrapper("greet");
+
+/** @type {function(...*):?} */
+var _greetWithName = Module["_greetWithName"] = createExportWrapper("greetWithName");
+
+/** @type {function(...*):?} */
 var _main = Module["_main"] = createExportWrapper("main");
 
 /** @type {function(...*):?} */

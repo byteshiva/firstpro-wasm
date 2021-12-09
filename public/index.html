@@ -10,6 +10,10 @@
     <h1>Webassembly demo</h1>
     <script type="text/javascript" src="demo.js">
     </script>
+
+    <script type="text/javascript">
+        var greet = cwrap('greetWithName', 'string', ['string']);
+    </script>
 </body>
 </html>
 
